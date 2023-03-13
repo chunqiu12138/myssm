@@ -1,10 +1,5 @@
  ### 简易的SSM框架
- :::left
-项目地址
-:::
-:::right
-https://github.com/chunqiu12138/myssm
-:::
+
 
 - 实现了SSM框架的部分基本功能
   - 基于Java反射机制和xml文件，通过对xml文件bean标签和property标签的扫描，实现Java对象的实例化、IOC容器的创建、依赖注入
