@@ -1,6 +1,11 @@
- ### 简易的ssm框架
+ ### 简易的SSM框架
+ :::left
+项目地址
+:::
+:::right
+https://github.com/chunqiu12138/myssm
+:::
 
-- 实现了Spring的IOC的初始化和AOP功能
-  - 利用注解和xml文件实现对bean的扫描和初始化
-  - 基于Java反射机制利用注解和xml文件实现依赖注入
-  - 基于代理模式实现基本的AOP功能
+- 实现了SSM框架的部分基本功能
+  - 基于Java反射机制和xml文件，通过对xml文件bean标签和property标签的扫描，实现Java对象的实例化、IOC容器的创建、依赖注入
+  - 通过创建自定义的DispatcherServlet类继承HttpServlet并重写Service方法，实现获取对应的Controller调用目标方法，完成职责的分派
